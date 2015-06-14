@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>弹窗页</title>
+	<link rel="stylesheet" href="http://static.tianyaui.com/global/ty/TY.css" media="all">
+	<link rel="stylesheet" href="static/css/pop.css" media="all">
+	<!--[if IE 6]>
+        <script type="text/javascript" src="static/js/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script type="text/javascript">
+			DD_belatedPNG.fix(".pngfix");
+		</script>
+	<![endif]-->
+</head>
+<body class="pop-page">
+<div class="box-bp">
+	<div id="pop_create_album" class="fele form-horizontal pop-shopping">
+		<div class="form-item form-required">
+			<label for="album_name"><i class="icon-required">*</i>专辑名：</label>
+			<div class="form-field"><input type="text" id="album_name" class="form-text"></div>
+		</div>
+		<div class="form-item form-required">
+			<label for="album_des"><i class="icon-required">*</i>描述：</label>
+			<div class="form-field"><textarea id="album_des"></textarea></div>
+		</div>
+		<div class="form-item">
+			<label for="album_tag">标签：</label>
+			<div class="form-field">
+				<input type="text" id="album_tag" class="form-text">
+				<p class="form-des">(多个标签使用空格或者,分割)</p>
+			</div>
+		</div>
+		<div class="form-action"><a href="#" class="btn p-bluebtn">确定</a></div>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_create_share" class="fele pop-shopping">
+		<div class="form-item">
+			<input type="text" id="album_name" class="form-text inline-ele" placeholder="将分享的商品网址粘贴在此"><a href="#" class="btn p-bluebtn">确定</a>
+		</div>
+		<div class="form-item site-support">
+			<strong>已支持的网站：</strong>
+			<span href="#" class="suning">苏宁易购</span>
+			<span href="#" class="taobao">淘宝网</span>
+			<span href="#" class="tmall">天猫商城</span>
+		</div>
+		<div class="declare">
+			<p>仅支持个人用户分享，商家合作请联系020-84112006</p>
+		</div>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_create_success" class="fele pop-shopping">
+		<p class="status-success"><i class="icon-right">&#10003;</i>发布成功！</p>
+		<div class="form-action"><a href="#" class="btn p-bluebtn">前往查看</a></div>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_share_exist" class="fele form-horizontal pop-shopping">
+		<div class="clearfix mb10">
+			<div class="product-right">
+				<div class="form-item product-name">
+					<label>商品名称：</label>
+					<div class="form-field"><h3>Street 时尚水洗牛仔长裙 牛仔蓝Street 时尚水洗牛仔长裙 牛仔蓝</h3></div>
+				</div>
+				<p class="product-price">￥149</p>
+				<textarea id="love_reson" placeholder="喜欢它的理由"></textarea>
+			</div>
+			<div class="product-left" id="pop_img_pic">
+				<div class="view-content">
+					<ul class="clearfix">
+						<li><img src="static/images/pic/img160.jpg" alt=""></li>
+						<li><img src="static/images/pic/img160.jpg" alt=""></li>
+						<li><img src="static/images/pic/img160.jpg" alt=""></li>
+						<li><img src="static/images/pic/img160.jpg" alt=""></li>				
+						<li><img src="static/images/pic/img160.jpg" alt=""></li>
+					</ul>
+				</div>
+				<a href="#" class="prev-btn"></a><a href="#" class="next-btn"></a>
+			</div>
+		</div>
+		
+		<div class="form-item item-no-lable">
+			<div class="form-field">
+				<p class="form-des">添加标签(多个标签使用空格或者,分割)</p>
+				<input type="text" id="album_tags" class="form-text w500">
+			</div>
+		</div>
+		<p class="rec-tags mb10">推荐标签：<span class="pop-tag">牛仔裤</span><span class="pop-tag">连衣裙</span></p>
+		<div class="form-action"><a href="#" class="btn p-bluebtn">确定</a></div>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_identity_product" class="fele pop-shopping">
+		<p class="mb10">看中了“****”商品，求大家帮忙鉴定下</p>
+		<div class="form-item no-item-label">
+			<div class="form-field"><textarea id="identity_des"></textarea></div>
+		</div>
+		<div class="form-action"><a href="#" class="btn p-bluebtn">确定</a></div>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_com_product" class="fele pop-shopping">
+		<h3 class="mb10">Street 时尚水洗牛仔长裙</h3>
+		<div class="form-item no-item-label">
+			<div class="form-field"><textarea id="com_des"></textarea></div>
+		</div>
+		<div class="form-action"><a href="#" class="btn p-bluebtn">确定</a></div>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_like_success" class="fele pop-shopping">
+		<p class="status-success"><i class="icon-right">&#10003;</i>喜欢成功！</p>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_create_product" class="fele form-horizontal pop-shopping">
+		<div class="form-item">
+			<label for="product_link">商品链接：</label>
+			<div class="form-field">
+				<input type="text" id="product_link" class="form-text inline-ele">
+				<a href="#" class="btn p-bluebtn">采集</a>
+			</div>
+		</div>
+		<div class="form-item form-required">
+			<label for="product_name"><i class="icon-required">*</i>商品名称：</label>
+			<div class="form-field"><input type="text" id="product_name" class="form-text"></div>
+		</div>
+		<div class="form-item form-required form-item-special">
+			<label><i class="icon-required">*</i>商品图片：</label>
+			<div class="form-field">
+				<ul class="clearfix">
+					<li>
+					<div class="img-wrap"><div class="admin-option"><span class="sp-left"><a href="#" target="_blank" class="move-left pngfix"></a><a href="#" target="_blank" class="move-right pngfix"></a></span><span class="sp-right"><a href="#" target="_blank" class="pngfix"></a></span></div><img src="static/images/pic/img100.jpg" width="100" height="100" alt=""></div>
+						<a href="#" class="btn p-greybtn">浏览</a>
+					</li>
+					<li>
+						<div class="img-wrap"><img src="static/images/pic/img100.jpg" width="100" height="100" alt=""></div>
+						<a href="#" class="btn p-greybtn">浏览</a>
+					</li>
+					<li>
+						<div class="img-wrap"><img src="static/images/pic/img100.jpg" width="100" height="100" alt=""></div>
+						<a href="#" class="btn p-greybtn">浏览</a>
+					</li>
+					<li>
+						<div class="img-wrap"><img src="static/images/pic/img100.jpg" width="100" height="100" alt=""></div>
+						<a href="#" class="btn p-greybtn">浏览</a>
+					</li>
+					<li>
+						<div class="img-wrap"><img src="static/images/pic/img100.jpg" width="100" height="100" alt=""></div>
+						<a href="#" class="btn p-greybtn">浏览</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<div class="form-item">
+			<label for="product_name">商品价格：</label>
+			<div class="form-field"><input type="text" id="product_name" class="form-text w100"></div>
+		</div>
+		<div class="form-item">
+			<label>优惠活动：</label>
+			<div class="form-field form-field-rc">
+				<label for="yh_cuxiao"><input type="radio" name="youhui" id="yh_cuxiao" class="form-radio"><span>促销</span></label>
+				<label for="yh_tuijian"><input type="radio" name="youhui" id="yh_tuijian" class="form-radio"><span>推荐</span></label>
+				<label for="yh_baoyou"><input type="radio" name="youhui" id="yh_baoyou" class="form-radio"><span>包邮</span></label>
+				<label for="yh_xinpin"><input type="radio" name="youhui" id="yh_xinpin" class="form-radio"><span>新品</span></label>
+				<label for="yh_qianggou"><input type="radio" name="youhui" id="yh_qianggou" class="form-radio"><span>抢购</span></label>
+				<label for="yh_miaosha"><input type="radio" name="youhui" id="yh_miaosha" class="form-radio"><span>秒杀</span></label>
+			</div>
+		</div>
+		<div class="form-item">
+			<label for="product_des">商品描述：</label>
+			<div class="form-field"><textarea id="product_des" class="w428"></textarea></div>
+		</div>
+		<div class="form-item form-item-special">
+			<label for="product_tags">添加标签：</label>
+			<div class="form-field">
+				<input type="text" id="product_tags" class="form-text w500">
+				<p class="form-des">(多个标签使用空格或者,分割)</p>
+				<p class="rec-tags mb10">推荐标签：<span class="pop-tag">牛仔裤</span><span class="pop-tag">连衣裙</span></p>
+			</div>
+		</div>
+		<p class="form-error">填写错误！</p>
+		<div class="form-action"><a href="#" class="btn p-bluebtn">确定</a></div>
+	</div>	
+</div>
+<div class="box-bp">
+	<div id="pop_add_special" class="fele pop-shopping">
+		<div class="add_special_pic">
+			<img src="static/images/pic/img141-162.jpg" alt="" />
+		</div>
+		<div class="add_special_list">
+			<div class="special_list_item">
+				 浪费秋装
+			</div>
+			<div class="special_list_info">
+				<p class="form-error">填写错误！</p>
+				<div class="form-action"><a href="#" class="btn p-bluebtn">确定</a></div>
+			</div>
+		</div>
+	</div>	
+</div>
+</body>
+</html>

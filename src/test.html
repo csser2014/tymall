@@ -1,0 +1,53 @@
+<%@ include file="/pub/html.html" %>
+<head>
+	<title>专辑列表页-title</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<%@ include file="/pub/head-css.html" %>
+	<link href="/static/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<%@ include file="/pub/head-js.html" %>
+	
+</head>
+<body>
+	<div class="page no-aside">
+	    <%@ include file="/pub/header.html" %>
+	    <div class="wrap-container">
+	        <div id="container" class="clearfix">
+				<div id="main">
+					<div class="inner clearfix tr">
+						
+						
+						<a href="javascript:void(0);" id="xxx">发布</a>
+						
+						<div id="scale_pic" class="tl" style="width:150px; height:150px; border:1px solid #f00;"></div>
+						
+						
+						
+					</div>
+				</div>
+	        </div>
+	    </div>
+	    <%@ include file="/pub/footer.html" %>
+	</div>
+	
+	<script type="text/javascript">
+		
+		new _mall.comp.BizProductOp({
+			type	:	'hook-special',
+			param	:	{
+				productId	:	2420,
+				productURL	:	'http://img3.laibafile.cn/p/m/135054641.jpg',
+				zoneUrl		:	'http://page183.tianya.cn/77test'
+			},
+			closeHandler	:	function(){
+				console.log('close');
+			},
+			completeHandler	:	function(){
+				console.log('complete');
+			}
+		});
+		
+	</script>
+</body>
+</html>

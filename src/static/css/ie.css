@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* -------------------------------------------------
+ * ie9 
+ * 针对ie9的class为ie9，针对ie9及以下的class为lte9
+ * -------------------------------------------------
+*/
+/* -------------------------------------------------
+ * ie8 
+ *针对ie8的class为ie8，针对ie8及以下的class为no-css3
+ * -------------------------------------------------
+*/
+.no-css3 .greenbtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99cc00', endColorstr='#72a600',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .redbtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3333', endColorstr='#a40000',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .lightbluebtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .darkbluebtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85c6ed', endColorstr='#3284c7',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .orangebtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ff7e00',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .lightgreybtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .darkgreybtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#a2a2a2',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .blackbtn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888787', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-8 */
+}
+.no-css3 .greenbtn:hover,
+.no-css3 .redbtn:hover,
+.no-css3 .lightbluebtn:hover,
+.no-css3 .darkbluebtn:hover,
+.no-css3 .orangebtn:hover
+.no-css3 .darkgreybtn:hover,
+.no-css3 .blackbtn:hover{
+    filter:none;
+}
+
+/* -------------------------------------------------
+ * ie7
+ *针对ie7的class为ie7，针对ie7及以下的class为lte7
+ * -------------------------------------------------
+*/
+
+/* -------------------------------------------------
+ * ie6
+ *针对ie6及以下的class为ie6
+ * -------------------------------------------------
+*/

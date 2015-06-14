@@ -1,0 +1,83 @@
+<%@ include file="/pub/html.html" %>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>商品详细页</title>
+	<%@ include file="/pub/head-css.html" %>
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/static/css/embed.css" media="all" />
+	<%@ include file="/pub/head-js.html" %>
+</head>
+<body>
+	<script type="text/javascript">
+		var _currProdId = 123;
+		var _currProdCreatorId = 45968447;
+	</script>
+	<div class="page no-aside">
+	    <div class="wrap-container">
+	        <div id="container" class="clearfix">
+				<div id="main">
+					<div class="inner clearfix">
+						<div id="page_goods_detail">
+							<div id="good_info" class="box-bp clearfix mb10">
+								<div class="good-left" id="good_imgslide">
+									<div class="img-view">
+										<ul>
+											<li><img src="/static/images/pic/img460-310.jpg" width="400" height="400" alt=""></li>
+										</ul>
+									</div>
+									<ul class="clearfix thumb-list">
+										<li><img src="http://pic.aimm.cc/uploads/allimg/121225/1-121225094648.jpg" data-bigurl="http://pic.aimm.cc/uploads/allimg/121225/1-121225094648.jpg" width="70" height="70" alt=""></li>
+										<li><img src="http://pic.aimm.cc/uploads/allimg/121225/1-121225094648.jpg" data-bigurl="http://pic.aimm.cc/uploads/allimg/121225/1-121225094648.jpg" width="70" height="70" alt=""></li>
+										<li><img src="http://pic.aimm.cc/uploads/allimg/121220/1-121220102039.jpg" data-bigurl="http://pic.aimm.cc/uploads/allimg/121220/1-121220102039.jpg" width="70" height="70" alt=""></li>
+										<li><img src="http://pic.aimm.cc/uploads/allimg/121213/1-121213093614.jpg" data-bigurl="http://pic.aimm.cc/uploads/allimg/121213/1-121213093614.jpg"width="70" height="70" alt=""></li>
+										<li><img src="http://pic.aimm.cc/uploads/allimg/121221/1-121221092444.jpg" data-bigurl="http://pic.aimm.cc/uploads/allimg/121221/1-121221092444.jpg"width="70" height="70" alt=""></li>
+									</ul>
+								</div>
+								<div class="good-right">
+									<h1 class="good-title">海绵纯色糖果方形抱枕</h1>
+									<p class="mb15">品牌：苏宁易购<a class="view-all ml10" href="#" target="_blank">查看全部</a></p>
+									<div class="price-buy mb15"><span class="price">￥148元</span><a class="buy-now _buy" href="http://focus.tianya.cn" target="_blank" data-product-id="123">去购买</a></div>
+									<div class="intro mb15">
+										<p>描述：外面为牛皮、内衬为猪皮，手感很好。整体剪裁流畅，极简风格，非常百搭。中间的金属搭扣更是点金之笔，打开之后发现里面的夹层不外面为牛皮、内衬为猪皮，手感很好。整体剪裁流畅，极简风格，非常百搭。中间的金属搭扣更是点金之笔，打开之后发现里面的夹层不......</p>
+									</div>
+									<div class="oper">
+										<span class="love mr10 _like" data-product-id="123" data-product-name="苍老师(*^__^*) 嘻嘻……">喜欢(3000)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--main-->
+	        </div>
+	    </div><!--wrap-container-->
+	</div>
+	<script type="text/javascript" charset="utf-8" src="/static/js/product-detail.js"></script>
+	<script type="text/javascript" charset="utf-8" src="/static/js/product-common.js"></script>
+		<script type="text/javascript">
+		<!--
+			jQuery(window).load(function(){
+				if (top == window) {
+					return;
+				}
+				
+				var t = 0;
+				if(jQuery.browser.safari){
+					t = document.body.offsetHeight;
+				}else{
+					t = document.body.scrollHeight;
+				}
+				var h = t + 15;//调整15个间距差
+				var url = location.href;
+				var ifr = jQuery('iframe[src="' + url+ '"]',jQuery(parent.document));
+				
+				//双保险设置高度
+				ifr.height(h);
+				ifr.css('height',h);
+	
+			});
+		//-->
+	</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<script type="text/javascript">
+    TY.loader("TY.ui.nav", function () {
+        TY.ui.nav.init({
+            showTopNav:false, //是否显示上导航。可选参数，默认为true
+            topNavWidth:1000, //上导航宽度。可选参数，参数值为：950、980、1000。默认为1000
+            showBottomNav:false    //是否显示下导航。可选参数，默认为true
+        });
+    });
+</script>
+<div class="wrap-header">
+	<div id="header">
+		<div class="inner clearfix">
+			<div class="mall-back-ty clearfix"><a target="_blank" href="http://focus.tianya.cn/">返回天涯社区</a></div>
+			<div id="mall-ad" class="clearfix mt10"></div>
+			<div class="mall-info clearfix">
+				<a href="/" id="logo"></a>
+				<form action="#" id="form_search_block">
+					<input type="text" class="search-text"><input type="submit" value="搜索" class="search-submit">
+				</form>
+				<div class="_user_nav"></div>
+			</div>
+			<div id="nav">
+				<ul class="inline-style clearfix">
+					<li><a class="active" href="/">首页</a></li>
+					<li>
+						<a href="/shopping-tour.html">逛街</a>
+						<ul class="inline-style sub-nav">
+							<li><a href="/category.html">IT数码</a></li>
+							<li><a href="#">女性时尚</a></li>
+							<li><a href="#">亲子健康</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">旅游</a>
+						<ul class="inline-style sub-nav">
+							<li><a href="#">景点</a></li>
+							<li><a href="#">酒店</a></li>
+							<li><a href="#">客栈</a></li>
+						</ul>
+					</li>
+					<li><a href="">专辑</a></li>
+					<li><a href="#">品牌</a></li>
+					<li><a href="/discounts.html">促销优惠</a></li>
+				</ul>
+			</div>
+			<div id="sitename">
+				<% if(isIndexPage) { %>
+					<h1 class="ele-invisible">天涯购物街</h1>
+				<% }else { %>
+					<strong class="ele-invisible">天涯购物街</strong>
+				<% } %>
+			</div>
+			<!--
+			<div id="login-area" style="display:none;">
+				<a href="javascript:void(0);" class="subnav-login" id="p-login">登录</a>|<a href="http://passport.tianya.cn/register/default.jsp?sourceURL=http://travel.tianya.cn" target="_blank" class="subnav-register" id="p-register">注册</a>
+			</div>
+			<div id="login-succ">
+				<a href="#" class="user-name"><img alt="用户头像" src="http://tx.tianyaui.com/logo/small/45968447"><span>nikitest</span></a>
+				<ul class="drop-menu-t">
+					<li class="my-share-t"><a href="#">我的分享</a></li>
+					<li class="my-special-t"><a href="#">我的专辑</a></li>
+					<li class="user-exit-t"><a href="#">退出</a></li>
+				</ul>
+			</div>
+			-->
+			<a href="javascript:void(0);" class="share-btn" id="nav_share">我要分享</a>   
+		</div>
+	</div><!--header-->
+</div>

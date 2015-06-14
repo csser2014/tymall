@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* -------------------------------------------------
+ * 商品详细页--论坛嵌入
+ * -------------------------------------------------
+*/
+/*modify*/
+.wrap-container #container{
+	width:900px;
+}
+.wrap-container #main{
+	width:900px;
+}
+.wrap-container .good-right{
+	width:360px;
+}
+.page{min-width:900px;}
+
+.box-bp{border:none;}
+
+#main{min-height:400px;}

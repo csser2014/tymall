@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* -------------------------------------------------
+ * index css
+ * -------------------------------------------------
+*/
+/* titlelist */
+#hotrec-mod{float:left;padding-bottom:6px;}
+
+/*pic-show*/
+.pic-show a{
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.pic-show a:hover{
+	border: none;
+	text-decoration: none;
+}
+.pic-show a:hover .short-title{
+	display: block;
+}
+.pic-show .short-title{
+	display: none;
+	position: absolute;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+	padding: 0 10px;
+	line-height: 30px;
+	background-color:rgba(0,0,0,.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7F000000', endColorstr='#7F000000');
+}
+.picshowA, .picshowB, .picshowC, .picshowD{float:left;}
+.picshowA{width:250px;}
+.picshowD{width:248px;}
+.pic-show img{float:left;}
+.pic-show .imgA,
+.pic-show .imgF{
+	width: 250px;
+	height: 125px;
+}
+.pic-show .imgA .short-title,
+.pic-show .imgF .short-title,
+.pic-show .imgD .short-title,
+.pic-show .imgE .short-title,
+.pic-show .imgG .short-title
+{
+	width: 230px;
+}
+.pic-show .imgB .short-title,
+.pic-show .imgC .short-title{
+	width: 105px;
+}
+.pic-show .imgB{margin-top:1px;margin-right:1px;width: 125px;height: 124px;}
+.pic-show .imgC{margin-top:1px;width: 124px;height: 124px;}
+.pic-show .imgD{margin-left:1px;margin-right:1px;width: 248px;height: 250px;}
+.pic-show .imgE{margin-right:1px;width: 249px;height: 250px;}
+.pic-show .imgG{margin-top:1px;width: 250px;height: 124px;}
+
+/*exhibition*/
+.tContent{margin-top:10px;}
+.tContent li{display:inline;float:left;height:90px;line-height:20px;margin:0 5px 0 13px;padding-bottom:25px;width:180px;}
+.tContent li a{color:#1763A1;}
+.tContent li a img{display:inline;float:left;margin-right:10px;padding-top:3px;}
+.tContent li h3{font-size:14px;font-weight:normal;margin-bottom:8px;line-height:20px;}
+.tContent li .summ{color:#555;height:60px;overflow:hidden;}
+	
+/*hzr 2013-3-19*/
+#hotrec-mod .title-list li a{font-family:"Microsoft YaHei","黑体";font-size:13px;}
+
+/**/
+.box-content .img-txtA li{
+    margin:0;
+    width:497px;
+}
+.img-txtA li .img{
+    float:left;
+	height:195px;
+	overflow:hidden;
+	width:239px;
+}
+.img-txtA .txt-detail{
+    float:left;
+	height:170px;
+    margin-left:30px;
+    display:inline;
+    margin-top:25px;
+	position:relative;
+    width:215px;
+}
+.img-txtA .txt-detail h3{
+    line-height:18px;
+}
+.img-txtA .txt-detail h3 a{
+    font-weight:normal;
+    color:#262626;
+    font-size:16px;
+    font-family:"微软雅黑";
+}
+.img-txtA .txt-detail p{
+    line-height:20px;
+    color:#666;
+    font-size:12px;
+    font-family:"微软雅黑";
+    margin-top:10px;
+    overflow:hidden;
+}
+.img-txtA .txt-detail p a{
+	word-break:break-all;
+}
+.box-content .img-title-314 li{
+    margin:0 8px 0 0;
+}
+.short-title-t{
+    text-indent:30px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width:230px;
+}
+.short-title-t a{
+    color:#262626;
+    font-size:14px;
+    font-family:"微软雅黑";
+}
+.short-dec-t{
+    font-size:12px;
+    color:#878787;
+    font-family:"微软雅黑";
+    text-indent:30px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width:230px;
+}
+.box-content .img-title-itemA li{
+    margin:0 6px 15px 0;
+    height:179px;
+}
+.box-content .img-title-itemB li{
+    margin-top:0;
+	margin-right:6px;
+}
+.box-content .img-title-itemB li .img-344{
+	height:344px;
+	width:238px;
+	overflow:hidden;
+	display:block;
+}
+.box-content .img-title-itemB li.img-special .img-344{
+	width:493px;
+}
+.box-content .img-title-itemA .img-special, .box-content .img-title-itemB .img-special{
+    height:344px;
+}
+.img-title-itemA .img-493, .img-title-itemA .img-238{
+	display:block;
+	overflow:hidden;
+}
+.img-title-itemA .img-493{
+	height:344px;
+	width:493px;
+}
+.img-title-itemA .img-238{
+	height:150px;
+	width:238px;
+}
+#fashion .box-content ul{
+    padding-bottom:0;
+}
+.community {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+.community .love, .community .comment {
+  background: url(../images/rapids-bg.gif) no-repeat 3px -20px #EDEDED;
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 3px 0 18px;
+}
+.community .loved {
+  background-position: 3px -68px;
+}
+.community .love {
+  margin-right: 5px;
+}
+.community .commented {
+  background-position: 3px -44px;
+}
+/*2013-10-9*/
+#promotion .img-title{
+	padding-bottom:0;
+}
+#recommend .img-title, #digital .img-title{
+	padding-bottom:0;
+}
+#childHealth .img-title, #loveTravel .img-title{
+	padding-bottom:0;
+}
+.fashion-content{
+	height:365px;
+	overflow:hidden;
+}
+.index_mod .head-title, .index_mod h2{
+	line-height:20px;
+}
